@@ -1,4 +1,4 @@
-**###Implementation of various algorithms using python**  
+**Implementation of various algorithms using python**  
 Utilises python to implement various algorithms
 
 Search Algorithms file Contains implementation of:
@@ -7,7 +7,7 @@ Search Algorithms file Contains implementation of:
  * Using Iterative method.
  * Using Recursive Method.
 
-***Usage**  
+**Usage**  
 Import the module
 ```sh
 from search_algorithms import linear_search, binary_search_iterative, binary_serach_rec
