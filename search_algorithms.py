@@ -50,8 +50,22 @@ def binary_search_rec(items_list: list, target_item: any) -> int | bool:
         else:
             return binary_search_rec(items_list[:mid], target_item)
 
+# Linear search
+def linear_search(items_list: list, target_item: any)-> int:
+    """
+    Searches target item using linear_search.
 
-if __name__ == "__main__":
-    item_list = [1, 2, 3, 4, 5, 6, 7, 8]
-    target_item = 8
-    print(binary_search_rec(item_list,target_item)) 
+    Args:
+    items_list(list): The list to search in.
+    target_item(any): The item to seach.
+
+    Returns:
+    (int): Returns index where the item is located, if not found return -1
+    """
+    index = -1
+
+    for i, item in enumerate(items_list):
+        if(item == target_item):
+            index = i
+            break
+    return index
