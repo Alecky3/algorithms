@@ -1,7 +1,7 @@
 **Implementation of various algorithms using python**  
 Utilises python to implement various algorithms
 
-Search Algorithms file Contains implementation of:
+### Search Algorithms file Contains implementation of:
 * Linear Search.
 * Binary Search.
     * Using Iterative method.
@@ -18,5 +18,19 @@ binary_search_iterative.__doc__
 binary_serach_rec.__doc__
 linear_serach.__doc__
 ```
+
+### Sort Algorithms
+* Bubble Sort
+
+**Usage**  
+Import the module  
+```sh
+from bubble_sort import bubble_sort
+```
+Get Documentation of usage  
+```sh
+bubble_sort.__doc__
+```
+
 
 
